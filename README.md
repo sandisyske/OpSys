@@ -1,1 +1,2 @@
-# Operatsioonisysteemid
+# OpSys
+# Praktikumide esitamise dokumentatsioon
