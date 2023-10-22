@@ -58,21 +58,13 @@ Tõestusmaterjal
 tulemus mis sain kasutades getfacl hinded.txt
 
 peeter@erik-U23:/home/opetaja/klass$ getfacl hinded.txt
-
-# file: hinded.txt
-
-# owner: opetaja
-
-# group: opetaja
-
+ file: hinded.txt
+ owner: opetaja
+ group: opetaja
 user::rw-
-
 group::---
-
 group:direktor:rw-
-
 mask::rw-
-
 other::---
 
 
