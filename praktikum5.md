@@ -1,4 +1,4 @@
-# Praktikum 5 - 
+# Praktikum 5 - Failiõigused Linuxis
 Selle praktikumi läbimiseks kulus kokku 6 tundi. Oli väga palju ise otsimist ja materjali lugemist. 
 
 ### Ülesanne 5.1
