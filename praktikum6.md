@@ -39,11 +39,3 @@ Viimasest neljast tegumist snapshotid
 <img width="322" alt="image" src="https://github.com/sandisyske/OpSys/assets/120086951/b31b4af4-9d11-4ecc-a7e0-491badb2751e">
 <img width="515" alt="image" src="https://github.com/sandisyske/OpSys/assets/120086951/fa70aed5-4a37-4b5c-a55f-139fbccfe3b5">
 
-   
-
-
-
-
-
-
-sellega sain esimese osa nii nagu peetsil aga rohkem ma ei saanud mitte midagi aru
