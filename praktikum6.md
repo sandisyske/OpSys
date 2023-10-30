@@ -29,6 +29,21 @@ Koosta ja lisa aruandesse käsujada, mis kuvab (modifitseerib) käsu ps -axu | g
 Koosta ja lisa aruandesse käsujada (ip a | grep ...| ... | cut ... jne), mis kuvab ekraanile vastuseks ainult arvuti IP-aadressi (enamasti 10.0.2.15) ip a-käsu väljundi põhjal. 
 
 
-$ ps -axu | grep snap | cut -c68- 
+1. ps -axu | grep snap | cut -c68- (Otsin snap read)
+2. ip a | grep inet | tail -n+3 | head -n 1 | cut -d " " -f 6 | cut -d "/" -f 1 (väljastan IP aadressi)
+3. ip a | grep inet | tail -n+3 | head -n 1 | cut -d " " -f 6 | cut -d "/" -f 1 > ipaddress.txt (salvestasin IP aadressi tekstifaili)
+4. xargs -n1 ping -c 2 < ipaddress.txt (Kontrollisin tulemust)
+
+Viimasest neljast tegumist snapshotid
+
+<img width="322" alt="image" src="https://github.com/sandisyske/OpSys/assets/120086951/b31b4af4-9d11-4ecc-a7e0-491badb2751e">
+<img width="515" alt="image" src="https://github.com/sandisyske/OpSys/assets/120086951/fa70aed5-4a37-4b5c-a55f-139fbccfe3b5">
+
+   
+
+
+
+
+
 
 sellega sain esimese osa nii nagu peetsil aga rohkem ma ei saanud mitte midagi aru
