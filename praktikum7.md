@@ -15,6 +15,10 @@ Millised on GPT kasutamise eelised võrreldes MBRiga?
 
 <img width="480" alt="image" src="https://github.com/sandisyske/OpSys/assets/120086951/0a4a68c3-343d-4e4c-b433-1b01f50de7b5">
 
+# Ülesanne 7.4
+
+![image](https://github.com/sandisyske/OpSys/assets/120086951/87d37c25-d98f-4c41-89da-1c410f1ebc36)
+
 # Ülesanne 7.5
 
 Mida mõjutasid mount-käsu parameetrid -o ro ja -t auto?
@@ -33,4 +37,7 @@ Mount käsuga sain USB-seadme info :
 See tähendab, et Ubuntu asendas auto parameetri väärtusega vfat.
 
 # Ülesanne 7.6
+
+<img width="480" alt="image" src="https://github.com/sandisyske/OpSys/assets/120086951/2e420658-8d16-47c8-98f4-3b5b2153ecc4">
+
 
