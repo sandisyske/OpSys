@@ -60,10 +60,51 @@ for rida in $ps_output; do
 done
 IFS=$' \t\n'
 ```
+![image](https://github.com/sandisyske/OpSys/assets/120086951/67da7219-a367-4b8f-b7c9-08751fefb1af)
 
-<img width="202" alt="image" src="https://github.com/sandisyske/OpSys/assets/120086951/61e550bc-3bdf-4696-bf0f-b715800aba78">
 
 ### Ülesanne 6 sktiprikood teksina ja ekraanipilt väljundist
+```
+#!/bin/bash
+# Funktsioon
+astenda() {
+        number=$1
+        astendaja=$2
+        tulemus=1
 
+        for ((i=5; i>=1; i--)); do
+                tulemus=$(($tulemus * $number))
+        done
+        echo $tulemus
+}
+tulemus=$(astenda 9 5)
+echo "9 astmes 5 tulemus on $tulemus"
+```
+<img width="237" alt="image" src="https://github.com/sandisyske/OpSys/assets/120086951/30bd9677-4249-4056-a059-faa4d02cae90">
 
+### Ülesanne 7 Skriptimine ja AI
 
+* Prompt AI-le:
+Ülesanne 6: Looge funktsioon astendamiseks Linuxi skriptina
+
+Loo bash-skript nimega yl6.sh Linuxi keskkonnas. Skript peaks sisaldama funktsiooni astendamiseks, kasutades korrutamistehet ja rekursiooni või tsüklit. Funktsioon peaks arvutama ja väljastama 9^5 väärtuse.
+
+Veendu, et skripti alguses on määratud õige interpretaator (#!/bin/bash). Sa võid kasutada rekursiooni, for-tsüklit või muud sobivat meetodit astendamiseks.
+
+* Bing Chat vastus
+```
+  #!/bin/bash
+
+power() {
+    local res=1
+    for ((i=1;i<=$2;i++)); do
+        res=$((res*$1))
+    done
+    echo $res
+}
+
+power 9 5
+```
+<img width="644" alt="image" src="https://github.com/sandisyske/OpSys/assets/120086951/9c14fcbb-cb3c-47cd-b7d2-9d0f1201c8d4">
+
+  
